@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:barrierMargin="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/inicio"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@color/blue"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Hello Toast"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/titulo_text_size"/>
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_weight="2"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:foregroundGravity="center|center_horizontal|center_vertical"
+        android:backgroundTint="@color/blue"
+        android:text="@string/button_label_toast"
+        android:textSize="@dimen/toast_text_size"
+        android:textColor="@android:color/white"
+        app:cornerRadius="0dp"
+        android:onClick="showToast"/>
+
+    <TextView
+        android:id="@+id/contador"
+        android:layout_width="370dp"
+        android:layout_height="547dp"
+        android:layout_weight="2"
+        android:background="@color/yellow"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:foregroundGravity="center|center_horizontal|center_vertical"
+        android:text="@string/count_initial_value"
+        android:textStyle="bold"
+        android:textSize="@dimen/count_initial_text_size"
+        android:textColor="@color/blue2"/>
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="370dp"
+        android:layout_height="71dp"
+        android:layout_weight="2"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:foregroundGravity="center|center_horizontal|center_vertical"
+        android:backgroundTint="@color/blue"
+        android:text="@string/button_label_count"
+        android:textSize="@dimen/count_text_size"
+        android:textColor="@android:color/white"
+        app:cornerRadius="0dp"
+        android:onClick="countUp"/>
+</LinearLayout>

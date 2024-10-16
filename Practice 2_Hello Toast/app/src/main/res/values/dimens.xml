@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titulo_text_size">30sp</dimen>
+    <dimen name="toast_text_size">25sp</dimen>
+    <dimen name="count_initial_text_size">320sp</dimen>
+    <dimen name="count_text_size">25sp</dimen>
+</resources>
