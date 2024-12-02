@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "763560688155",
+    "firebase_url": "https://card-view-ebeae-default-rtdb.firebaseio.com",
+    "project_id": "card-view-ebeae",
+    "storage_bucket": "card-view-ebeae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763560688155:android:e48fa4aba2b995c51cd6be",
+        "android_client_info": {
+          "package_name": "com.example.card_view_practica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDClbsNMs-9Kkao0JW0Q_Y4K10jCNiKBZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
