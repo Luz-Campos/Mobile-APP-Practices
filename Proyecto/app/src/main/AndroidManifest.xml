@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logosolo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logosolo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UM2"
+        tools:targetApi="31">
+
+        <!-- Splash Screen Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity android:name=".MainActivity"
+            android:screenOrientation="sensor"
+            android:exported="true"/>
+
+        <!-- Login Activity -->
+        <activity android:name=".LoginActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:exported="true"/>
+
+        <!-- Create Account Activity -->
+        <activity android:name=".CreateAccountActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:exported="true"/>
+
+        <activity android:name=".HomeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:exported="true"/>
+
+        <activity android:name=".TestVocacionalActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:exported="true"/>
+
+        <activity android:name=".CursosActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:exported="true"/>
+
+        <activity android:name=".UniversidadesActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:exported="true"/>
+
+        <activity android:name=".CarrerasActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:exported="true">
+        </activity>
+
+        <activity android:name=".DonacionesActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:launchMode="singleTop"
+            android:exported="true"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

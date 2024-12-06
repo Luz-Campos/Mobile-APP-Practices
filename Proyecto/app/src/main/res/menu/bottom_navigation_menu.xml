@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/page_1"
+            android:title="@string/page_1"
+            android:textColor="@color/black"/>
+        <item
+            android:id="@+id/page_3"
+            android:title="@string/page_3"
+            android:textColor="@color/black"/>
+        <item
+            android:id="@+id/page_4"
+            android:title="@string/page_4"
+            android:textColor="@color/black"/>
+    </group>
+
+    <item
+        android:id="@+id/non_clickable_item"
+        android:enabled="false" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/page_5"
+            android:title="Test Vocacional"
+            android:textColor="@color/black"/>
+        <item
+            android:id="@+id/page_6"
+            android:title="Cursos"
+            android:textColor="@color/black"/>
+        <item
+            android:id="@+id/page_7"
+            android:title="Universidades"
+            android:textColor="@color/black"/>
+        <item
+            android:id="@+id/page_8"
+            android:title="Carreras"
+            android:textColor="@color/black"/>
+        <item
+            android:id="@+id/page_9"
+            android:title="Donaciones"
+            android:textColor="@color/black"/>
+    </group>
+
+    <!-- Botones de WhatsApp y Teléfono -->
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/whatsapp_button"
+            android:title="WhatsApp"
+            android:icon="@drawable/ic_whatsapp"/>
+        <item
+            android:id="@+id/phone_button"
+            android:title="Llamar"
+            android:icon="@drawable/ic_phone"/>
+    </group>
+</menu>

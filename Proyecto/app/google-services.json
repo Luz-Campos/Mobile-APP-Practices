@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "524748688129",
+    "project_id": "universitymatch-59c2b",
+    "storage_bucket": "universitymatch-59c2b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524748688129:android:1b61bc4186d9391612a900",
+        "android_client_info": {
+          "package_name": "com.example.um2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxWJHX1H-sg5lLBq6YaWbFuVqSnRqJpNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

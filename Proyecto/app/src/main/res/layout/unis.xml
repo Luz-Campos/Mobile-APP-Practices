@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#FFFFFF"
+    android:layout_marginStart="10dp"
+    android:backgroundTint="#FFFFFF"
+    android:elevation="6dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POST TITLE"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rouded_background1"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/post_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/post_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="POST DESC"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/post_dire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="POST DIRE"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/post_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="POST TEL"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

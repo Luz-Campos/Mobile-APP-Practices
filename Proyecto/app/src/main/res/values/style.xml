@@ -1,0 +1,15 @@
+<resources>
+    <!-- Estilo global para la aplicación -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Establecer que no haya barra de acción por defecto -->
+    </style>
+
+    <!-- Estilo personalizado para el SearchView -->
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:queryBackground">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="windowActionBar">false</item> <!-- Esto ya está bien -->
+        <item name="windowNoTitle">true</item> <!-- Esto ya está bien -->
+    </style>
+</resources>

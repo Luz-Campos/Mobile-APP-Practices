@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">University Match</string>
+    <string name="page_1">Home</string>
+    <string name="page_2">Menu</string>
+    <string name="page_3">Notifications</string>
+    <string name="page_4">Profile</string>
+    <string name="open_drawer">Abrir menú lateral</string>
+    <string name="close_drawer">Cerrar menú lateral</string>
+</resources>
